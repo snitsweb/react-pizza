@@ -1,0 +1,48 @@
+{
+  "pizzas": [
+    {
+      "id" : 0,
+      "name": "Pepperoni Fresh",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price" : 40,
+      "category": 0,
+      "rating": 4,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
+
+    },
+    {
+      "id" : 1,
+      "name": "Solami",
+      "types": [1],
+      "sizes": [26, 40],
+      "price" : 35,
+      "category": 0,
+      "rating": 4,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
+
+    },
+    {
+      "id" : 2,
+      "name": "Chicken Pizza",
+      "types": [0, 1],
+      "sizes": [26, 30, 35],
+      "price" : 45,
+      "category": 0,
+      "rating": 4,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
+
+    },
+    {
+      "id" : 3,
+      "name": "Five meats",
+      "types": [0],
+      "sizes": [30, 40],
+      "price" : 60,
+      "category": 0,
+      "rating": 4,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
+
+    }
+  ]
+}
