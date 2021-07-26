@@ -3,9 +3,10 @@ import classNames from 'classnames'
 
 const Button = (props) => {
     return (
-        <button className={classNames('button', {
+        <button onClick={props.onClickAdd} className={classNames('button', {
             'button--outline': props.outline,
-            'button--cart': props.cart
+            'button--cart': props.cart,
+            'button--add' : props.btnAdd
         })}>
             {props.children}
         </button>

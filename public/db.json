@@ -6,8 +6,8 @@
       "types": [0, 1],
       "sizes": [26, 30, 40],
       "price" : 40,
-      "category": 0,
-      "rating": 4,
+      "category": 3,
+      "rating": 3,
       "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
 
     },
@@ -17,8 +17,8 @@
       "types": [1],
       "sizes": [26, 40],
       "price" : 35,
-      "category": 0,
-      "rating": 4,
+      "category": 2,
+      "rating": 5,
       "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
 
     },
@@ -28,8 +28,8 @@
       "types": [0, 1],
       "sizes": [26, 30, 35],
       "price" : 45,
-      "category": 0,
-      "rating": 4,
+      "category": 1,
+      "rating": 10,
       "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
 
     },
@@ -39,8 +39,52 @@
       "types": [0],
       "sizes": [30, 40],
       "price" : 60,
+      "category": 1,
+      "rating": 8,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
+
+    },
+    {
+      "id" : 4,
+      "name": "Pepperoni Fresh",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price" : 40,
+      "category": 2,
+      "rating": 6,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
+
+    },
+    {
+      "id" : 5,
+      "name": "Solami",
+      "types": [1],
+      "sizes": [26, 40],
+      "price" : 35,
+      "category": 3,
+      "rating": 2,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
+
+    },
+    {
+      "id" : 6,
+      "name": "Chicken Pizza",
+      "types": [0, 1],
+      "sizes": [26, 30, 35],
+      "price" : 45,
+      "category": 4,
+      "rating": 10,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
+
+    },
+    {
+      "id" : 7,
+      "name": "Five meats",
+      "types": [0],
+      "sizes": [30, 40],
+      "price" : 60,
       "category": 0,
-      "rating": 4,
+      "rating": 5,
       "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_584x584.jpeg"
 
     }
