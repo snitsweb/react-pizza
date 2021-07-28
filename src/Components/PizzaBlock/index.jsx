@@ -64,7 +64,7 @@ const PizzaBlock = ({name, id, price, category, rating, imageUrl, types, sizes, 
             </div>
             <div className="pizza-block__bottom">
                 <div className="pizza-block__price">od {price} zł.</div>
-                <Button onClickAdd={onAddPizza} btnAdd outline >
+                <Button onClick={onAddPizza} btnAdd outline >
                     <svg
                         width="12"
                         height="12"
