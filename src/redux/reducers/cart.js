@@ -1,3 +1,5 @@
+import {ReduxConstants} from "../constants";
+
 const initialState = {
     items: {},
     totalPrice: 0,
@@ -8,7 +10,7 @@ const getTotalPrice = arr => arr.reduce((sum, item) => item.price + sum, 0)
 
 const cart = (state = initialState, action) => {
     switch (action.type) {
-        case 'ADD_PIZZA_CART':
+        case ReduxConstants.cart.addPizzaCart:
             const currentPizzaItems = !state.items[action.payload.id]
                 ? [action.payload]
                 : [...state.items[action.payload.id].items, action.payload]
@@ -32,12 +34,12 @@ const cart = (state = initialState, action) => {
                 totalCount: totalCount,
                 totalPrice: totalPrice
             }
-        case 'CLEAR_CART':
+        case ReduxConstants.cart.clearCart:
             return {
                 ...state,
                 ...action.payload
             }
-        case 'REMOVE_CART_ITEM':
+        case ReduxConstants.cart.removeCartItem:
             const cartItems = {
                 ...state.items
             }
@@ -51,7 +53,7 @@ const cart = (state = initialState, action) => {
                 totalCount: state.totalCount - currentTotalCount,
                 totalPrice: state.totalPrice - currentTotalPrice
             }
-        case 'PLUS_CART_ITEM':
+        case ReduxConstants.cart.plusCartItem:
 
             const plusItems = [...state.items[action.payload].items, state.items[action.payload].items[0]]
 
@@ -67,8 +69,7 @@ const cart = (state = initialState, action) => {
                 totalPrice: state.totalPrice + state.items[action.payload].items[0].price,
                 totalCount: state.totalCount + 1
             }
-        case
-        'MINUS_CART_ITEM':
+        case ReduxConstants.cart.minusCartItem :
             const minusItems = state.items[action.payload].items.length > 1
                 ? state.items[action.payload].items.slice(1)
                 : []

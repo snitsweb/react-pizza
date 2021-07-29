@@ -1,9 +1,11 @@
+import {ReduxConstants} from "../constants";
+
 export const setSortBy = (name) => ({
-    type: 'SET_SORT_BY',
+    type: ReduxConstants.filters.setSortBy,
     payload: name
 })
 
 export const setCategory = (catIndex) => ({
-    type: 'SET_CATEGORY',
+    type: ReduxConstants.filters.setCategory,
     payload: catIndex
 })

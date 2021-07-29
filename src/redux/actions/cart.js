@@ -1,15 +1,12 @@
+import {ReduxConstants} from "../constants";
+
 export const addPizzaToCart = (pizzaObj) => ({
-    type: 'ADD_PIZZA_CART',
+    type: ReduxConstants.cart.addPizzaCart,
     payload: pizzaObj
 })
 
-export const setTotalCount = (count) => ({
-    type: 'SET_TOTAL_COUNT',
-    payload: count
-})
-
 export const clearCart = () => ({
-    type: 'CLEAR_CART',
+    type: ReduxConstants.cart.clearCart,
     payload: {
         totalCount: 0,
         totalPrice: 0,
@@ -18,16 +15,16 @@ export const clearCart = () => ({
 })
 
 export const removeCartItem = (id) => ({
-    type: 'REMOVE_CART_ITEM',
+    type: ReduxConstants.cart.removeCartItem,
     payload: id
 })
 
 export const plusCartItem = (id) => ({
-    type: 'PLUS_CART_ITEM',
+    type: ReduxConstants.cart.plusCartItem,
     payload: id
 })
 
 export const minusCartItem = (id) => ({
-    type: 'MINUS_CART_ITEM',
+    type: ReduxConstants.cart.minusCartItem,
     payload: id
 })

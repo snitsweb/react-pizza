@@ -1,3 +1,5 @@
+import {ReduxConstants} from "../constants";
+
 const initialState = {
     sortBy: 'popular',
     category: 0
@@ -5,12 +7,12 @@ const initialState = {
 
 const filters = (state = initialState, action) => {
     switch (action.type) {
-        case 'SET_SORT_BY':
+        case ReduxConstants.filters.setSortBy:
             return {
                 ...state,
                 sortBy: action.payload
             }
-        case 'SET_CATEGORY':
+        case ReduxConstants.filters.setCategory:
             return {
                 ...state,
                 category: action.payload

@@ -1,7 +1,8 @@
 import axios from "axios"
+import {ReduxConstants} from "../constants";
 
 export const setLoaded = payload => ({
-    type: 'SET_LOADED',
+    type: ReduxConstants.pizzas.setLoaded,
     payload
 
 })
@@ -23,6 +24,6 @@ export const fetchPizzas = (category, sortBy) => (dispatch) => {
 }
 
 export const setPizzas = (items) => ({
-    type: 'SET_PIZZAS',
+    type: ReduxConstants.pizzas.setPizzas,
     payload: items
 })
