@@ -17,7 +17,7 @@ export const fetchPizzas = (category, sortBy) => (dispatch) => {
         sortTemp = 'price'
     }
 
-    axios.get(`http://localhost/pizzas?${category !== 0 ? 'category=' + category : ''}&_sort=${sortTemp}&_order=desc`)
+    axios.get(`https://react-pizza-snitsweb.herokuapp.com/pizzas?${category !== 0 ? 'category=' + category : ''}&_sort=${sortTemp}&_order=desc`)
         .then(({data}) => {
        dispatch(setPizzas(data))
     })
