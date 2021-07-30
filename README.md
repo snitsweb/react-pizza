@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Visit web page
+
+Open [https://react-pizza-snitsweb.herokuapp.com](https://react-pizza-snitsweb.herokuapp.com) to view it in the browser without \
+downloading.
+
 ## Available Scripts
 
 In the project directory, you can run:
